@@ -12,3 +12,7 @@ _site/
 .bundle
 .bundle/
 vendor/
+
+
+# Ignore the virtual env folder
+mysite/
