@@ -2,8 +2,67 @@
 layout: default
 ---
 
+<!--
+The following are the old Homepage
+<script>
+  $(document).ready(function() {
+    $("#typewriteText").typewrite({
+      actions: [{ type: "{{site.typewrite-text}}" }]
+    });
+  });
+</script>
+    <div class="jumbotron" style="text-align: center;">
+      <img class="author-profile-img" src="/assets/img/memoji01.png" />
+      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+      <p class="lead" id="typewriteText"></p>
+         {%- include github_star_button.html -%}
+         {%- include github_fork_button.html -%}
+    </div>
+    <div class="col-lg-8 offset-md-2">
+      <section id="recent-articles">
+        <div id="recent-articles-header">
+          <div id="recent-articles-title">
+            <h1 class="card-title">Recent Articles</h1>
+          </div>
+          <div id="recent-articles-show-all">
+            <a class="btn btn-lg btn-dark" href="/blog"> View All </a>
+          </div>
+        </div>
+        <br />
+
+        <ul>
+          {% for post in site.posts limit:5 %}
+          <li class="article-card">
+            <a href="{{post.url}}" class="article-card-link">
+              <div id="article-container">
+                <div id="article-img">
+                  <img
+                    src="/assets/img/{{site.author_logo}}"
+                    width="50px"
+                    height="50px"
+                  />
+                </div>
+                <div id="article-link">
+                    <p class="recent-article-link">{{post.title}} <span style="color: #ccc; font-size: 15px;"> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
+                  </div>
+                  <div id="article-alert">
+                  {% for cat in post.category limit:1 %}
+                   <button class="btn btn-sm btn-dark">{{cat}}</button>
+                  {% endfor %}
+                  </div>
+              </div>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div> -->
+
 <div class="row ">
-  <div class="col-lg-4 offset-md-1">
+
+  <div class="col-lg-4 offset-md-1" style="position: fixed">
+    <!-- <div class="position-fixed"> -->
+
     <div class="card" id="profile-card">
       <a href="/">
         <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
@@ -106,14 +165,21 @@ layout: default
       {%- include coding_activity.html -%}
     </div>
     {% endif %}
+  <!-- </div> -->
   </div>
-  <div class="col-lg-7">
+
+
+
+  <div class="col-lg-8">
     {% if site.author_bio %}
     <div class="card">
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %}
+
+    <!-- ### Projects ### -->
+    {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
@@ -140,29 +206,11 @@ layout: default
       <br />
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_work_experiences == true %}
-    <div class="card">
-      <h1 class="card-title">Work Experience</h1>
-      <br />
-      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
-      %}
-      <div class="row">
-        <div class="col-md-2">
-          <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
-            class="company-logo"
-          />
-        </div>
-        <div class="col-md-6">
-          <h4 class="experience-title">{{ exp.designation }}</h4>
-          <h6 class="experience-info">{{ exp.company_name}}</h6>
-          <p class="experience-desc">{{ exp.description }}</p>
-          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
-        </div>
-      </div>
-      {% endif %} {% endfor %}
-    </div>
-    {% endif %} {% if site.show_author_education_details == true %}
+    {% endif %}
+
+
+    <!-- ### Education ### -->
+    {% if site.show_author_education_details == true %}
     <div class="card">
       <h1 class="card-title">Education</h1>
       <br />
@@ -185,5 +233,58 @@ layout: default
       {% endif %} {% endfor %}
     </div>
     {% endif %}
+
+
+    <!-- ### Publications ### -->
+    {% if site.show_author_publications == true %}
+    <div class="card">
+      <h1 class="card-title">Publications</h1>
+      <br />
+      {% for pub in site.author_publications %}
+      {% if pub.visibility == true %}
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ pub.thumbnail }}"
+            class="company-logo"
+          />
+        </div>
+        <div class="col-md-6">
+          <h4 class="experience-title"><a href="{{pub.url}}">{{ pub.title }}</a></h4>
+          <h6 class="experience-info">{{ pub.authors }}</h6>
+          <p class="experience-desc">{{ pub.publisher }}</p>
+          <!-- <p><a href="{{pub.url}}">PDF</p> -->
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- ### Worker Experience ### -->
+    {% if site.show_author_work_experiences == true %}
+    <div class="card">
+      <h1 class="card-title">Work Experience</h1>
+      <br />
+      {% for exp in site.author_work_experiences %} {% if exp.visibility == true
+      %}
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
+            class="company-logo"
+          />
+        </div>
+        <div class="col-md-6">
+          <h4 class="experience-title">{{ exp.designation }}</h4>
+          <h6 class="experience-info">{{ exp.company_name}}</h6>
+          <p class="experience-desc">{{ exp.description }}</p>
+          <p><a href="{{exp.company_url}}">{{ exp.company_url}}</a></p>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %}
+
   </div>
 </div>
