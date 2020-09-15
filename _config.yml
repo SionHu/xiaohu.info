@@ -53,7 +53,7 @@ author_publications:
               thumbnail: pub_crowdsourcing01.png
               authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
               publisher: The International World Wide Web Conference (WWW), April, 2020
-              url: https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380063
+              url: http://mingyin.org/paper/WWW-20/bias.pdf
               visibility: true
 
             - title: Discovering Biases in Image Datasets with the Crowd
