@@ -16,3 +16,6 @@ vendor/
 
 # Ignore the virtual env folder
 mysite/
+
+# Stupid MacOS system file
+.DS_Store

@@ -8,6 +8,9 @@ layout: default
     });
   });
 </script>
+    <div class="container" style="max-width: 80%">
+
+
     <div class="row ">
       <div class="col-lg-4 offset-md-1">
         <div class="card" id="profile-card">
@@ -164,14 +167,14 @@ layout: default
           <br />
           {% for detail in site.author_education_details %} {% if detail.visibility
           == true %}
-          <div class="row">
+          <div class="row mb-4">
             <div class="col-lg-2">
               <img
                 src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
                 class="company-logo img-fluid mx-auto d-block"
               />
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-8">
               <h4 class="experience-title">{{detail.college_degree }}</h4>
               <h6 class="experience-info">{{detail.college_name}}</h6>
               <p class="experience-desc">{{detail.description}}</p>
@@ -197,7 +200,7 @@ layout: default
                 class="company-logo img-fluid mx-auto d-block"
               />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
               <h4 class="experience-title"><a href="{{pub.url}}">{{ pub.title }}</a></h4>
               <h6 class="experience-info">{{ pub.authors }}</h6>
               <p class="experience-desc">{{ pub.publisher }}</p>
@@ -236,3 +239,4 @@ layout: default
 
       </div>
     </div>
+  </div>

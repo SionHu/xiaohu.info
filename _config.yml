@@ -52,15 +52,15 @@ author_publications:
             - title: Crowdsourcing Detection of Sampling Biases in Image Datasets
               thumbnail: pub_crowdsourcing01.png
               authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
-              publisher: The International World Wide Web Conference (2020 WWW)
+              publisher: The International World Wide Web Conference (WWW), April, 2020
               url: https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380063
               visibility: true
 
             - title: Discovering Biases in Image Datasets with the Crowd
               thumbnail: pub_crowdsourcing02.png
               authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
-              publisher: The seventh AAAI Conference on Human Computation and Crowdsourcing (2019 HCOMP)
-              url: http://mingyin.org/paper/WWW-20/bias.pdf
+              publisher: The seventh AAAI Conference on Human Computation and Crowdsourcing (HCOMP), October, 2019
+              url: http://mingyin.org/paper/HCOMP-19/BiasDetection_camera.pdf
               visibility: true
 
             - title: A Large-scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks
@@ -73,7 +73,7 @@ author_publications:
             - title: First-Person View Hand Segmentation ofMulti-Modal Hand Activity Video Dataset
               thumbnail: pub_bmvc.png
               authors: Sangpil Kim, Hyung-gun Chi, Xiao Hu, Anirudh Vegesana, Karthik Ramani
-              publisher: The British Machine Vision Conference (2020 BMVC)
+              publisher: The British Machine Vision Conference (BMVC), September, 2020
               url:
               visibility: true
 
@@ -138,7 +138,7 @@ wechat_username: hx9865
 # hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-# wakatime_username: sujaykundu777
+wakatime_username: SionHu
 
 # mailchimp embedded form url (newsletter):
 # mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
