@@ -58,7 +58,7 @@ author_publications:
 
             - title: Discovering Biases in Image Datasets with the Crowd
               thumbnail: pub_crowdsourcing02.png
-              authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
+              authors: Xiao Hu, Haobo Wang, Somesh Dube, Anirudh Vegesana, Kaiwen Yu, Yung-Hsiang Lu, Ming Yin
               publisher: The seventh AAAI Conference on Human Computation and Crowdsourcing (HCOMP), October, 2019
               url: http://mingyin.org/paper/HCOMP-19/BiasDetection_camera.pdf
               visibility: true

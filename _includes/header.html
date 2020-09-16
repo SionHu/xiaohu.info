@@ -12,13 +12,13 @@
           >
             <span class="icono-hamburger" id="navbar-hamburger"> </span>
           </button>
-          <a class="navbar-brand" href="/"><b>{{site.title}}</b></a>
+          <a class="navbar-brand" href="/" style="font-size:25px"><b>{{site.title}}</b></a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               {% for i in site.urls %}
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link" style="font-size: 20px"
                   href="{{ site.url}}{{site.baseurl}}{{ i.url }}"
                   >{{ i.text }}</a
                 >
