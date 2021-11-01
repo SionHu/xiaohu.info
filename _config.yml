@@ -49,32 +49,25 @@ author_education_details:
                 visibility: true
 
 author_publications:
-            - title: Crowdsourcing Detection of Sampling Biases in Image Datasets
-              thumbnail: pub_crowdsourcing01.png
-              authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
-              publisher: The International World Wide Web Conference (WWW), April, 2020
-              url: http://mingyin.org/paper/WWW-20/bias.pdf
+            - title: Efficient Computer Vision on Edge Devices withPipeline-Parallel Hierarchical Neural Networks
+              thumbnail: pub_dac22.png
+              authors: Abhinav Goel, Caleb Tung, Xiao Hu, James C. Davis, George K. Thiruvathukal, Yung-Hsiang Lu
+              publisher: 27th Asia and South Pacific Design Automation Conference} (ASP-DAC), Janurary, 2022
+              url: 
               visibility: true
 
-            - title: Discovering Biases in Image Datasets with the Crowd
-              thumbnail: pub_crowdsourcing02.png
-              authors: Xiao Hu, Haobo Wang, Somesh Dube, Anirudh Vegesana, Kaiwen Yu, Yung-Hsiang Lu, Ming Yin
-              publisher: The seventh AAAI Conference on Human Computation and Crowdsourcing (HCOMP), October, 2019
-              url: http://mingyin.org/paper/HCOMP-19/BiasDetection_camera.pdf
+            - title: Low-Power Multi-Camera Object Re-Identification using Hierarchical Neural Networks
+              thumbnail: pub_dac21.png
+              authors: Abhinav Goel, Caleb Tung, Xiao Hu, Haobo Wang, James C. Davis, George K. Thiruvathukal, Yung-Hsiang Lu
+              publisher: 2021 ACM/IEEE International Symposium on Low Power Electronics and Design (DAC), December, 2021
+              url: https://arxiv.org/abs/2106.10588
               visibility: true
 
-            - title: A Large-scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks
-              thumbnail: pub_mebp.png
-              authors: Sangpil Kim, Hyung-gun Chi, Xiao Hu, Qixing Huang, Karthik Ramani
-              publisher: In proceedings of 16th European Conference on Computer Vision (ECCV), August, 2020
-              url: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630171.pdf
-              visibility: true
-
-            - title: First-Person View Hand Segmentation ofMulti-Modal Hand Activity Video Dataset
-              thumbnail: pub_bmvc.png
-              authors: Sangpil Kim, Hyung-gun Chi, Xiao Hu, Anirudh Vegesana, Karthik Ramani
-              publisher: The British Machine Vision Conference (BMVC), September, 2020
-              url:
+            - title: The 2020 Low-Power Computer Vision Challenge
+              thumbnail: pub_aicas.png
+              authors: Xiao Hu, Ming-Ching Chang, Yuwei Chen, ... 
+              publisher: IEEE International Conference on Artificia Intelligence Circuits and Systems (AICAS), June, 2021
+              url: https://ieeexplore.ieee.org/document/9458522
               visibility: true
 
             - title: Observing Responses to the COVID-19 Pandemic using Worldwide Network Cameras
@@ -84,6 +77,34 @@ author_publications:
               url: https://arxiv.org/pdf/2005.09091.pdf
               visibility: true
 
+            - title: First-Person View Hand Segmentation ofMulti-Modal Hand Activity Video Dataset
+              thumbnail: pub_bmvc.png
+              authors: Sangpil Kim, Hyung-gun Chi, Xiao Hu, Anirudh Vegesana, Karthik Ramani
+              publisher: The British Machine Vision Conference (BMVC), September, 2020
+              url: https://engineering.purdue.edu/cdesign/wp/first-person-view-hand-segmentation-of-multi-modal-hand-activity-video-dataset/
+              visibility: true
+
+            - title: A Large-scale Annotated Mechanical Components Benchmark for Classification and Retrieval Tasks with Deep Neural Networks
+              thumbnail: pub_mebp.png
+              authors: Sangpil Kim, Hyung-gun Chi, Xiao Hu, Qixing Huang, Karthik Ramani
+              publisher: In proceedings of 16th European Conference on Computer Vision (ECCV), August, 2020
+              url: https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630171.pdf
+              visibility: true
+
+            - title: Crowdsourcing Detection of Sampling Biases in Image Datasets
+              thumbnail: pub_crowdsourcing01.png
+              authors: Xiao Hu, Haobo Wang, Anirudh Vegesana, Somesh Dube, Kaiwen Yu, Gore Kao, Shuo-Han Chen, Yung-Hsiang Lu, George K. Thiruvathukal, Ming Yin
+              publisher: The International World Wide Web Conference (WWW), April, 2020
+              url: https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380063
+              visibility: true
+              
+            - title: Discovering Biases in Image Datasets with the Crowd
+              thumbnail: pub_crowdsourcing02.png
+              authors: Xiao Hu, Haobo Wang, Somesh Dube, Anirudh Vegesana, Kaiwen Yu, Yung-Hsiang Lu, Ming Yin
+              publisher: The seventh AAAI Conference on Human Computation and Crowdsourcing (HCOMP), October, 2019
+              url: http://mingyin.org/paper/HCOMP-19/BiasDetection_camera.pdf
+              visibility: true
+              
             - title: Low-Power Computer Vision Status, Challenges, and Opportunities
               thumbnail: pub_lpcv.png
               authors: Sergei Alyamkin, Matthew Ardi, Alexander C Berg, Achille Brighton, Bo Chen, Yiran Chen, Hsin-Pai Cheng, Zichen Fan, Chen Feng, Bo Fu, Kent Gauen, Abhinav Goel, Alexander Goncharenko, Xuyang Guo, Soonhoi Ha, Andrew Howard, Xiao Hu, Yuanjun Huang, Donghyun Kang, Jaeyoun Kim, Jong Gook Ko, Alexander Kondratyev, Junhyeok Lee, Seungjae Lee, Suwoong Lee, Zichao Li, Zhiyu Liang, Juzheng Liu, Xin Liu, Yang Lu, Yung-Hsiang Lu, Deeptanshu Malik, Hong Hanh Nguyen, Eunbyung Park, Denis Repin, Liang Shen, Tao Sheng, Fei Sun, David Svitov, George K Thiruvathukal, Baiwu Zhang, Jingchi Zhang, Xiaopeng Zhang, Shaojie Zhuo
