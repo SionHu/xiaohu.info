@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     algolia_html_extractor (2.6.4)
       json (~> 2.0)
@@ -93,12 +93,14 @@ GEM
     mini_portile2 (2.6.1)
     multi_json (1.15.0)
     multipart-post (2.1.1)
+
     nio4r (2.5.2)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
+
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -106,7 +108,7 @@ GEM
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
     public_suffix (4.0.5)
-    puma (4.3.5)
+    puma (4.3.9)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (1.6.13)
