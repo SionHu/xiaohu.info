@@ -1,7 +1,7 @@
 title: Xiao Hu
-subtitle: Purdue M.S. ECE Student
+subtitle: Senior Software Engineer at Qualcomm
 description: >- # this means to ignore newlines until "baseurl:"
-  an ECE MS student at Purdue University.
+  Senior Software Engineer at Qualcomm's Computer Vision R&D team.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,9 +28,9 @@ urls:
 
 author_logo: profile.jpeg
 author: Xiao Hu
-author_bio: Hi, my name is Xiao Hu. I am a Software Engineer at Qualcomm's Computer Vision R&D team. My research broadly connects to the fields of low-power computer vision, human-computer interaction, fairness in artificial intelligence, machine learning, and full-stack web development. I also have experiences in Crowdsourcing techniques and drone operations.
+author_bio: Hi, my name is Xiao Hu. I am a Senior Software Engineer at Qualcomm's Computer Vision R&D team. My research broadly connects to the fields of low-power computer vision, human-computer interaction, fairness in artificial intelligence, machine learning, and full-stack web development. I also have experiences in Crowdsourcing techniques and drone operations.
 author_email: "hu440@purdue.edu"
-author_location: West Lafayette, IN, USA
+author_location: San Diego, CA, USA
 author_website_url: "https://xiaohu.info"
 typewrite-text: Passionate about Computer Vision and Robotics.
 
@@ -117,8 +117,8 @@ author_work_experiences:
             - company_name: Qualcomm
               company_logo: qualcomm.png
               company_url: https://www.qualcomm.com
-              designation: Software Engineer
-              description: Senior Engineer, Multimedia Computer Vision R&D. Expertise in low-power computer vision, on-device deployment, and AI-driven multimedia at the edge (mobile, XR, IoT).
+              designation: Senior Software Engineer
+              description: Implement AI inference pipeline with SOTA model on different AI accelerators and OSes. Optimize ML workloads running on different Qualcomm AI engines. Partner with the BU teams to integrate the model inference pipeline into the software stack. Support the model preparation, optimization, and develop custom ops with Qualcomm AI engines.
               visibility: true
             # - company_name: Microsoft
             #   company_logo: microsoft.png
